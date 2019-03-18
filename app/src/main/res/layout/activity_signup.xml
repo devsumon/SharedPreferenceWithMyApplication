@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+   android:orientation="vertical"
     android:padding="25dp"
     >
 
@@ -50,6 +50,40 @@
                 android:hint="Email" />
         </android.support.design.widget.TextInputLayout>
 
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:weightSum="6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <Button
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginRight="10dp"
+            android:textColor="#fff"
+            android:id="@+id/btncancelid"
+            android:text="Cancel"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:background="@color/colorAccent"
+            android:textColor="#fff"
+            android:id="@+id/btnsaveid"
+            android:text="Save"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            />
 
 
 

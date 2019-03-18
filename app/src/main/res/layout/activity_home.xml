@@ -22,6 +22,7 @@
             android:layout_height="match_parent">
 
             <android.support.design.widget.TextInputEditText
+                android:id="@+id/usernameid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="UserName" />
@@ -34,6 +35,7 @@
             android:layout_height="match_parent">
 
             <android.support.design.widget.TextInputEditText
+                android:id="@+id/passwordid"
                 android:inputType="textPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -52,7 +54,10 @@
 
 
         <Button
-            android:id="@+id/signupid"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginRight="10dp"
+            android:textColor="#fff"
+            android:id="@+id/btnsignupid"
             android:text="Sign Up"
             android:layout_weight="3"
             android:layout_width="0dp"
@@ -60,7 +65,9 @@
             />
 
         <Button
-            android:id="@+id/signinid"
+            android:background="@color/colorAccent"
+            android:textColor="#fff"
+            android:id="@+id/btnsigninid"
             android:text="Sign In"
             android:layout_weight="3"
             android:layout_width="0dp"
