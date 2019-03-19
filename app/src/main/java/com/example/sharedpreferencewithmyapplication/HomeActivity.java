@@ -58,7 +58,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
 
                 editor.commit();
-                //Toast.makeText(getApplicationContext(), "Data is store successfully",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), " successfully login",Toast.LENGTH_SHORT).show();
 
                 Intent welcomeScreen = new Intent(HomeActivity.this, WelcomeActivity.class);
                 startActivity(welcomeScreen);
