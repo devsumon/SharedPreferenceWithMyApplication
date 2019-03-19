@@ -56,8 +56,9 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                 editor.putString("passwordKey", password);
                 //String userpassDetails = sharedPreferences.getString(username + password + "data", "username password incorrect");
 
-
                 editor.commit();
+                sharedPreferences.edit().putBoolean("IS_LOGED_IN", true).apply();
+
                 //Toast.makeText(getApplicationContext(), " successfully login",Toast.LENGTH_SHORT).show();
 
                 Intent welcomeScreen = new Intent(HomeActivity.this, WelcomeActivity.class);
