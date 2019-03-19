@@ -61,7 +61,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
                 //Toast.makeText(getApplicationContext(), " successfully login",Toast.LENGTH_SHORT).show();
 
-                Intent welcomeScreen = new Intent(HomeActivity.this, WelcomeActivity.class);
+                Intent welcomeScreen = new Intent(HomeActivity.this, LoginSuccessfulActivity.class);
                 startActivity(welcomeScreen);
             }
 
